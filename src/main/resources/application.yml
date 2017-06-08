@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  contextPath: /spring-app
+---
+spring:
+  profiles: local,default
+
+---
+spring:
+  profiles: prod
